@@ -1,0 +1,26 @@
+{
+  "name": "cvappapi",
+  "version": "1.0.0",
+  "description": "RESTful cvAppApi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlbertoGalleguillos/cvapp-Api.git"
+  },
+  "author": "Alberto Galleguillos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlbertoGalleguillos/cvapp-Api/issues"
+  },
+  "homepage": "https://github.com/AlbertoGalleguillos/cvapp-Api#readme",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^4.12.2"
+  }
+}
