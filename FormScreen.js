@@ -78,7 +78,7 @@ export default class FormScreen extends React.Component {
     };
 
     makeRemoteRequest = () => { 
-        const url = 'http://192.168.0.9:3000/getforms';
+        const url = 'http://52.89.241.21:3000/getforms';
         this.setState({ loading:true });
         fetch(url)
             .then(response => response.json())
